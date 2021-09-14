@@ -108,17 +108,16 @@
     visibility: hidden;
 }
 .social{
-    display: flex;
-    margin-top: 200px;
-    align-items: center;
+    display: inline-flex;
     font-size: 30px;
-    color: yellow;
-    border-bottom: 2px solid wheat;
-    border-top: 2px solid wheat;
+    margin-top: 70px;
 }
 i{
-    font-size: 30px;
     color: white;
+    padding-right: 15px;
+}
+i:hover{
+    color: aquamarine;
 }
 
 @media (max-width: 768px) {
