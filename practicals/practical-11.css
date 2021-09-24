@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height:100px;
+}
+footer{
+    background-color: rgb(62, 69, 83);
+    width: 100%;
+    display: block;
+}
+.content{
+    background-color: rgb(62, 69, 83);
+    height: 200px;
+    display: inline-flex;
+    
+}
+.ftr_content{
+    height: 100%;
+    padding: 10px;
+    width: 45%;
+    margin-right: 20px;
+}
+.text1{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+.links1{
+    padding: 10px;
+    margin-right: 150px;
+}
+.links2{
+    padding: 10px;
+    margin-right: 150px;
+}
+.links3{
+    padding: 10px;
+    margin-right: 150px;
+}
+.links1 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.links1 ul li a{
+    text-decoration: none;
+    color: white;
+     
+}
+.links1 ul li a:hover{
+    color: red;
+}
+.links2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.links2 ul li a{
+    text-decoration: none;
+    color: white;
+     
+}
+.links2 ul li a:hover{
+    color: red;
+}
+.links3 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.links3 ul li a{
+    text-decoration: none;
+    color: white;
+     
+}
+.links3 ul li a:hover{
+    color: red;
+}
+.heading{
+    color: white;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+ .register{
+     text-align: center;
+     line-height: 20vh;
+     font-family: Arial;
+     height:150px
+ }
+ .register a{
+    padding: 19px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(224, 30, 30);
+    border-radius: 30px;
+    margin-left: 20px;
+    
+}
+ .register a:hover{
+     background-color: blue;
+ }
+ .social{
+     align-items: center;
+     text-align: center;
+     height: 110px;
+     line-height: 100px;
+ }
+ .social ul{
+     display: inline-flex;
+ }
+ .social li{
+     list-style: none;
+ } 
+ .social ul li a{
+    margin-right: 20px;
+     color: white;
+     font-size: 20px;
+    padding: 20px;
+     
+ }
+ 
+ .fa{
+     font-size: 30px;
+     padding: 10px;
+ }
+ .copyright{
+     text-align: center;
+     line-height: 10vh;
+ }
+ 
+ 
