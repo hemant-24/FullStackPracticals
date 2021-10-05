@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+        .main-container{
+            width: 450px;
+            padding: 10;
+            margin: 20px auto;
+            text-align: center ;
+        }
+        .content-table{
+            background-color: cornsilk;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+        tbody td, thead th{
+            height: 30px;
+            border-right: 2px solid white ;
+        }
+        tfoot{
+            height: 35px;
+        }
+        thead th{
+            font-size: 20px;
+            line-height: 70px;
+        }
+        
+        a{
+            text-decoration: none;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            padding: 8px;
+        
+        }
+        a:hover{
+            background-color: red;
+        }
+        tbody tr:nth-child(odd)
+       {
+            background-color: linen;
+            
+        }
+        .basic{
+            background-color: lightcyan;
+        }
+        .deluxe{
+            background-color: darkseagreen;
+        }
+        .plus{
+            background-color:lemonchiffon;
+        }
+        .pro{
+            background-color: lightblue;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h2>
+            Select your plan
+        </h2>
+       
+        <table class="content-table">
+            <colgroup class="basic"></colgroup>
+            <colgroup class="plus"></colgroup>
+            <colgroup class="deluex"></colgroup>
+            <colgroup class="pro"></colgroup>
+            <thead>
+                <tr>
+                    <th>
+                        <i class="fa fa-building"></i>Basic
+                    </th>
+                    <th>
+                        <i class="fa fa-building"></i>Plus
+                    </th>
+                    <th>
+                        <i class="fa fa-telegram"></i>Deluxe
+                    </th>
+                    <th>
+                        <i class="fa fa-building"></i>Pro
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Rs. 500/-
+                    </td>
+                    <td>
+                        Rs. 1500/-
+                    </td>
+                    <td>
+                        Rs. 2500/-
+                    </td>
+                    <td>
+                        Rs. 3500/-
+                    </td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>75</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>3 users</td>
+                    <td>5 users</td>
+                    <td>10 users</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>10 Sites</td>
+                    <td>25 Sites</td>
+                    <td>100 Sites</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>50 MB</td>
+                    <td>250 MB</td>
+                    <td>1 GB</td>
+                    <td>5 GB</td>
+                </tr>
+                <tr>
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
